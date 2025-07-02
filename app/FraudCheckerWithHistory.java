@@ -385,3 +385,5 @@ public class FraudCheckerWithHistory extends Application {
         public String getRiskLevel() { return riskLevel.get(); }
     }
 }
+//to compile  javac --module-path javafx-sdk-21.0.7/lib --add-modules javafx.controls,javafx.fxml,javafx.media app/FraudCheckerWithHistory.java
+//to run java --module-path javafx-sdk-21.0.7/lib --add-modules javafx.controls,javafx.fxml,javafx.media app.FraudCheckerWithHistory 
